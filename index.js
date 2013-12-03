@@ -5,9 +5,9 @@
 
 'use strict';
 
-var CleanCss = require('clean-css');
+var CleanCSS = require('clean-css');
 
 module.exports = function(content, file, conf){
     conf.processImport = false;
-    return CleanCss.process(content, conf);
+    return (new CleanCSS(conf)).minify(content);
 };
