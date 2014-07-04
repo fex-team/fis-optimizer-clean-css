@@ -8,12 +8,12 @@ A optimizer for fis to compress css by using clean-css.
 
 ## 配置
 
-在配置文件(默认fis-conf.js)配置 `fis.config.settings('optimizer.clean-css', option)`
+在配置文件(默认fis-conf.js)配置 `fis.config.set('settings.optimizer.clean-css', option)`
 
 eg:
 
 ```javascript
-fis.config.settings('optimizer.clean-css', {
+fis.config.set('settings.optimizer.clean-css', {
     'keepBreaks': true
 });
 ```
