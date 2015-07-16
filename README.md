@@ -1,6 +1,6 @@
 # fis-optimizer-clean-css
 
-A optimizer for fis to compress css by using clean-css.
+A optimizer for fis to compress css by using clean-css. @version 1.1.7
 
 ## 使用方式 
 
