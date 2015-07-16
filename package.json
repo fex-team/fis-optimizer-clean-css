@@ -1,10 +1,10 @@
 {
     "name" : "fis-optimizer-clean-css",
-    "description" : "A optimizer for fis to compress css by using clean-css.",
-    "version" : "0.0.12",
+    "description" : "A optimizer for fis/fis3 to compress css by using clean-css.",
+    "version" : "0.0.13",
     "author" : "FIS Team <fis@baidu.com>",
     "homepage" : "http://fis.baidu.com/",
-    "keywords": [ "fis" ],
+    "keywords": [ "fis" ,"fis3"],
     "main" : "index.js",
     "repository": {
         "type": "git",
@@ -17,6 +17,6 @@
         "test" : "mocha test/ut --recursive"
     },
     "dependencies" : {
-        "clean-css" : "1.1.7"
+        "clean-css" : "3.3.6"
     }
 }
