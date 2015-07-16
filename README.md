@@ -18,5 +18,15 @@ fis.config.set('settings.optimizer.clean-css', {
 });
 ```
 
+FIS3:
+```js
+fis
+.match('*.{scss,sass,less,css}', {
+    optimizer: fis.plugin('clean-css',{
+        //option
+    })
+})
+```
+
 `option` 全部参数可参见[clean-css文档](https://github.com/GoalSmashers/clean-css#how-to-use-clean-css-programmatically)
 
